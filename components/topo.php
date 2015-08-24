@@ -18,3 +18,42 @@
 </head>
 
 <body>
+    
+    <!--Header -->
+<div id="front">
+        <div class="site-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <div id="logo">
+                            <h2><a href="#">TRANSPORTES</a></h2>
+                        </div> 
+                    </div> 
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#front">Home</a></li>
+                                <li><a href="#services">Serviços</a></li>                                
+                                <li><a href="#contact">Contato</a></li>
+                            </ul>
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="responsive">
+                            <div class="main-menu">
+                                <ul>
+                                    <li><a href="#front">Home</a></li>
+                                    <li><a href="#services">Serviços</a></li>                                    
+                                    <li><a href="#contact">Contato</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+<!-- End Header -->
