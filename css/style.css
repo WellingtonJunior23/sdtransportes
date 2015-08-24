@@ -1,14 +1,4 @@
-/*
 
-Sprint Template
-
-http://www.templatemo.com/free-website-templates/401-sprint
-
-*/
-
-/* ==========================================================================
-    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
-   ========================================================================== */
 html,
 button,
 input,
@@ -63,9 +53,6 @@ textarea {
   width: 100%;
 }
 
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
 .ir {
   background-color: transparent;
   border: 0;
@@ -103,9 +90,6 @@ textarea {
   *zoom: 1;
 }
 
-/* ==========================================================================
-    Forms
-   ========================================================================== */
 form input[type="text"],
 form input[type="email"],
 form input[type="number"],
@@ -136,9 +120,7 @@ form .button.yellow {
   border: 1px solid #c89316;
 }
 
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
+
 @media print {
   * {
     background: transparent !important;
@@ -161,9 +143,6 @@ form .button.yellow {
     content: " (" attr(title) ")";
   }
 
-  /*
-   * Don't show links for images, or javascript/internal links
-   */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
@@ -178,7 +157,6 @@ form .button.yellow {
 
   thead {
     display: table-header-group;
-    /* h5bp.com/t */
   }
 
   tr,
@@ -205,9 +183,6 @@ form .button.yellow {
     page-break-after: avoid;
   }
 }
-/* ==========================================================================
-    Structure & Defaults
-   ========================================================================== */
 html, body {
   font-size: 100%;
   width: 100%;
@@ -317,23 +292,23 @@ h6 {
   background-color: #161616;
 }
 
-#templatemo_logo {
+#logo {
   background-color: #26b864;
-  background-image: url(../images/templatemo_logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   background-position: 30px center;
   height: 102px;
   display: block;
 }
-#templatemo_logo h1 {
+#logo h2 {
   margin: 0;
   text-transform: uppercase;
   font-weight: 600;
   line-height: 102px;
   display: block;
 }
-#templatemo_logo h1 a {
-  margin-left: 140px;
+#logo h2 a {
+  margin-left: 130px;
   color: white;
   display: block;
 }
