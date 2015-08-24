@@ -5,7 +5,6 @@
                     <span>
                         Copyright &copy; <?php echo date(Y);?>, S D Transportes
                     </span>
-
                 </div> 
                 <div class="col-md-6 col-sm-6">
                     <ul class="social">

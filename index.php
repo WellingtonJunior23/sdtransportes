@@ -54,38 +54,53 @@
 
 <!-- Contato -->   
 
+
 <div id="contact" class="content-section">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="section-title">ENTRE EM CONTATO CONOSCO</h2>
             </div>
-
-            <form class="form-horizontal">
+        
+            <form class="form-horizontal">             
                 <div class="form-group">
                     <div class="col-sm-8">
                         <label for="inputEmail3" class="col-sm-2 control-label">Nome</label>
-                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Seu Nome">
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Nome Completo" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-6">
-                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Nome">
+                    <div class="col-sm-8">
+                        <label for="inputEmail3" class="col-sm-2 control-label">E-mail</label>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Telefone</label>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Telefone ou Celular">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Assunto</label>
+                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Assunto">
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-4">
-                        <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Nome">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Mensagem</label>
+                        <textarea class="form-control" rows="3"></textarea>
                     </div>
                 </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox"> Check me out
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="form-group">
+                    <div class="col-sm-8">
+                        <label for="inputEmail3" class="col-sm-2 control-label"></label>
+                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-send"></span> Enviar</button>
+                    </div>
+                </div>                           
             </form>
-
+        
         </div>
     </div>
 </div>
