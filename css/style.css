@@ -4,7 +4,7 @@ button,
 input,
 select,
 textarea {
-  color: #222;
+  color: black;
 }
 
 ::-moz-selection {
@@ -90,15 +90,17 @@ textarea {
   *zoom: 1;
 }
 
+/*
 form input[type="text"],
 form input[type="email"],
 form input[type="number"],
 form input[type="password"] {
   background: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #ccc;
   padding: 7px 10px;
   width: 60%;
 }
+*/
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="number"]:focus,
@@ -281,7 +283,7 @@ h6 {
 }
 
 /* ==========================================================================
-    Header Site Styling
+    Header
    ========================================================================== */
 .site-header {
   position: fixed;
@@ -324,14 +326,14 @@ h6 {
 }
 .main-menu ul li {
   display: inline-block;
-  width: 150px;
+  width: 120px;
   text-align: center;
   line-height: 102px;
 }
 .main-menu ul li a {
   color: white;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   outline: 0;
   border: 0;
@@ -367,7 +369,7 @@ h6 {
 }
 
 /* ==========================================================================
-    Slider Styling
+    Slider 
    ========================================================================== */
 .site-slider {
   padding-top: 102px;
@@ -529,7 +531,7 @@ h6 {
 }
 
 /* ==========================================================================
-    Products Styling
+    Serviços
    ========================================================================== */
 .product-item {
   margin-bottom: 30px;
@@ -611,8 +613,9 @@ h6 {
 }
 
 /* ==========================================================================
-    Contact Styling
+    Contato
    ========================================================================== */
+
 /*
 #map {
   width: 100%;
@@ -620,7 +623,7 @@ h6 {
   outline: 0;
   border: 0;
 }
-
+*/
 
 input, textarea {
   margin-bottom: 30px;
@@ -629,8 +632,8 @@ input, textarea {
   font-size: 14px;
   color: #838383;
   outline: 0;
-  border: 0;
-  border-bottom: 1px solid #b5c1c9;
+  border: 1px solid #ccc;
+  border-radius: 3px;
   width: 100%;
 }
 
@@ -638,6 +641,7 @@ input, textarea {
   height: 130px;
 }
 
+/*
 input.button {
   display: inline-block;
   width: auto;
@@ -648,7 +652,7 @@ input.button {
   text-transform: uppercase;
   font-weight: 700;
   padding-bottom: 27px;
-  border: 0;
+  border: 1px solid black;
 }
 */
 .site-footer {
@@ -681,7 +685,7 @@ ul.social li a {
 }
 
 /*------------------------------------------------------
-	RESPONSIVE STYLES 
+	RESPONSIVE  
 --------------------------------------------------------*/
 @media (max-width: 991px) {
   .main-menu, .bx-thumbnail-wrapper {
