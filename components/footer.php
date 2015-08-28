@@ -3,7 +3,10 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <span>
-                        Copyright &copy; <?php echo date(Y);?>, S D Transportes
+                        Copyright &copy; <?php echo date(Y);?>, S D Transportes<br>
+                        TELENONE: (11)3943-6962 / CEL: (11)94758-6140<br>
+                        E-MAIL: sdtransportes@bol.com.br<br>
+                        CNPJ: 20.915.664/0001-20                                                                        
                     </span>
                 </div> 
                 <div class="col-md-6 col-sm-6">

@@ -22,29 +22,29 @@ include_once 'slider.php';
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <span class="service-icon first"></span>
-                    <h3>Easy Customization</h3>
-                    <p>Cras congue orci at diam condimentum, in dignissim tellus elementum. Praesent id mauris eu urna vehicula rutrum sed in elit. Sed sed urna porta, viverra lacus in.</p>
+                    <h3>Transportes</h3>
+                    <p>Informações sobre serviços prestados de transporte aqui.</p>
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <span class="service-icon second"></span>
-                    <h3>Web Design</h3>
-                    <p>Nulla in nunc elit. Etiam porttitor nibh et felis molestie fermentum. Ut quis diam porttitor, dictum dolor in, volutpat nulla. Phasellus egestas eu lacus eu pharetra.</p>
+                    <h3>Entrega e Coleta</h3>
+                    <p>Informações sobre serviços prestados de coletas e entregas.</p>
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <span class="service-icon third"></span>
-                    <h3>High Quality</h3>
-                    <p>Sprint is free responsive website template using HTML5 CSS3 and Bootstrap framework. Feel free to download, edit and use it for your websites.</p>
+                    <h3>Mudanças e Carretos</h3>
+                    <p>Informações sobre serviços prestados de Mudanças e Carretos aqui.</p>
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <span class="service-icon fourth"></span>
-                    <h3>Professional Design</h3>
-                    <p>Morbi id nisi enim. Ut congue interdum pharetra facilisi. Aenean consectetur pellentesque mauris nec ornare. Nam tortor justo, rutrum ut condimentum.</p>
+                    <h3>Diversos</h3>
+                    <p>Informações sobre serviços prestados de transportes diversos.</p>
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
         </div> <!-- /.row -->
@@ -71,28 +71,32 @@ include_once 'slider.php';
 
                     <div class="row contact-form">
                         <fieldset class="col-md-6 col-sm-6">
-                            <input id="name" type="text" name="nome" placeholder="Nome" required>
+                            <input id="name" type="text" name="nome" placeholder="* Nome" required>
                         </fieldset>
                         <fieldset class="col-md-6 col-sm-6">
-                            <input type="email" name="email" id="email" placeholder="E-mail" required>
+                            <input type="email" name="email" id="email" placeholder="* E-mail" required>
                         </fieldset>
                         <fieldset class="col-md-6">
-                            <input type="number" name="telefone" id="subject" placeholder="Telefone" required>
+                            <input type="number" name="telefone" id="telefone" placeholder="* Telefone" required>
                         </fieldset>
                         <fieldset class="col-md-6">
-                            <input type="text" name="subject" id="subject" placeholder="Assunto">
+                            <input type="text" name="subject" id="assunto" placeholder="Assunto">
                         </fieldset>
                         <fieldset class="col-md-12">
-                            <textarea name="mensagem" id="comments" placeholder="Mensagem" required></textarea>
-                        </fieldset>
-                        <fieldset class="col-md-12">
-                            <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-send"></span> Enviar</button 
-                        </fieldset>
+                            <textarea name="mensagem" id="mensagem" placeholder="* Mensagem" required></textarea>                            
+                        </fieldset>                        
+                        <fieldset class="col-md-12">                                                        
+                            <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-send"></span> Enviar</button>                             
+                            <hr>
+                        </fieldset>                        
+                        <div class="col-sm-offset-4">
+                        <p class="text-warning">Campos com (*) são de preenchimento obrigatório, Obrigado!</p>
+                        </div>
                     </div> <!-- /.contact-form -->
 
                 </div> <!-- /.col-md-6 -->
             </form>
-        </div> <!-- /.row -->
+        </div> <!-- /.row -->        
     </div> <!-- /.container -->
 </div> <!-- /#products -->
 
