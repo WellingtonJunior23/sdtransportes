@@ -23,28 +23,28 @@ include_once 'slider.php';
                 <div class="service-item">
                     <span class="service-icon first"></span>
                     <h3>Transportes</h3>
-                    <p>Informações sobre serviços prestados de transporte aqui.</p>
+                    <p>Informações sobre serviços prestados de transporte aqui.</p>                   
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <span class="service-icon second"></span>
-                    <h3>Entrega e Coleta</h3>
-                    <p>Informações sobre serviços prestados de coletas e entregas.</p>
+                    <h3>Coleta e Entrega</h3>
+                    <p>Insira aqui informações sobre serviços prestados de Coleta e Entrega.</p>
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
-                    <span class="service-icon third"></span>
-                    <h3>Mudanças e Carretos</h3>
-                    <p>Informações sobre serviços prestados de Mudanças e Carretos aqui.</p>
+                    <span class="service-icon third"></span>                    
+                    <h3>Carretos e Mudanças</h3>
+                    <p>Insira aqui informações sobre serviços prestados de Carretos e Mudanças.</p>
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <span class="service-icon fourth"></span>
-                    <h3>Diversos</h3>
-                    <p>Informações sobre serviços prestados de transportes diversos.</p>
+                    <h3>Serviços Diversos</h3>
+                    <p>Insira aqui informações sobre serviços prestados de Serviços Diversos.</p>
                 </div> <!-- /.service-item -->
             </div> <!-- /.col-md-3 -->
         </div> <!-- /.row -->
@@ -83,6 +83,7 @@ include_once 'slider.php';
                             <input type="text" name="subject" id="assunto" placeholder="Assunto">
                         </fieldset>
                         <fieldset class="col-md-12">
+
                             <textarea name="mensagem" id="mensagem" placeholder="* Mensagem" required></textarea>                            
                         </fieldset>                        
                         <fieldset class="col-md-12">                                                        
@@ -91,9 +92,8 @@ include_once 'slider.php';
                         </fieldset>                        
                         <div class="col-sm-offset-4">
                         <p class="text-warning">Campos com (*) são de preenchimento obrigatório, Obrigado!</p>
-                        </div>
+                        </div>                                                                           
                     </div> <!-- /.contact-form -->
-
                 </div> <!-- /.col-md-6 -->
             </form>
         </div> <!-- /.row -->        

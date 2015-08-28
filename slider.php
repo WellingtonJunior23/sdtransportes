@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-md-12 text-right">
                             <div class="slider-caption">
-                                <h2>Qualquer slide aqui</h2>
+                                <h2>Aqui um slide qualquer</h2>
                             </div>
                         </div>
                     </div>
@@ -17,7 +17,7 @@
                 <img src="images/slides/slide2.jpg" alt="slider image 2">
                 <div class="container caption-wrapper">
                     <div class="slider-caption">
-                        <h2>Qualquer slide aqui</h2>
+                        <h2>Aqui um slide qualquer</h2>
                     </div>
                 </div>
             </li>
@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="col-md-12 text-right">
                             <div class="slider-caption">
-                                <h2>Qualquer slide aqui</h2>
+                                <h2>Aqui um slide qualquer</h2>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                     <div class="row">
                         <div class="col-md-12 text-right">
                             <div class="slider-caption">
-                                <h2>Qualquer slide aqui</h2>
+                                <h2>Aqui um slide qualquer</h2>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                     <div class="row">
                         <div class="col-md-12 text-right">
                             <div class="slider-caption">
-                                <h2>Qualquer slide aqui</h2>
+                                <h2>Aqui um slide qualquer</h2>
                             </div>
                         </div>
                     </div>
